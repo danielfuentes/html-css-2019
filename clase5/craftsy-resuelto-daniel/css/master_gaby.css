@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/*Gaby, en vez de colocar la imagen de fondo al container, se la colocas es al body del documento */
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../img/bg-2.png");
+  background-size: cover;
+}
+
+/*Al contenedor le coloca position: relative, de esa forma todos los elementos se va a posicionar dentro de él y no con respecto al body del documento*/
+.container{
+  width: 960px;
+  position: relative;
+  top: 150px;
+}
+.encabezado{
+  position: fixed;
+  top: 50px;
+  width: 960px;
+
+  /*Estas reglas CSS no son necesarias ya que con la posición en fixed, puede jugar con los top - left - rigth - botton, para posicionar el elemento deseado*/
+  /*height: 50px;
+  top: 50px;
+  padding-left: 100px;
+  margin: 10px;*/
+  background-color: #F05331;
+  z-index: 500;
+}
+.logo{
+  position: absolute;
+  top: -30px;
+  /*Aqui le varie el left, sólo para que quedara donde deseo, usted tenia -20px yo le coloque -70px*/
+  left: -70px;
+}
+
+.main-nav ul li{
+  list-style-type:none;
+  float: left;
+  padding: 20px;
+}
+.main-nav li a{
+  text-decoration: none;
+  font-family: verdana;
+  color: white;
+  /*Aquí sólo le coloque este padding, para que que las opciones de la barra de navegación se vieran bien*/
+  padding-left: 30px;
+}
+.product-container{
+  overflow: hidden;
+  position: relative;
+  /*Este top no es necesario ya que se va muy abajo los artículos - Verifique y pruebelo*/
+  /*top: 200px;*/
+}
+.producto{
+  position: relative;
+  width: 300px;
+  /*Este padding no es necesario amiga Gaby - Verifiquelo usted misma*/
+  /*padding: 10px;*/
+  margin: 10px;
+  float: left;
+  /*No es necesario colocarle el z-index, ya que al no tenerlo por defecto al hacer el scroll, se va por debajo del z-index mayor*/
+  /*z-index: 5;*/
+}
+.flag{
+  position: absolute;
+  /*Aquí le varie el valor que usted tenía, sólo para buscar que se posicione donde yo quiero, sin embargo tambien puede usar por ejemplo: rigth: 30px*/
+  left: 190px;
+  top: 0px;
+  /*No es necesario colocarle el z-index por defecto este elemento al hacer scroll se desplaza por debajo del elemento que tenga z-index mayor, el cual es el encabezado*/
+  /*z-index: 100;*/
+}
+/*Lo puede dejar así, pero le recuerdo que esmejor siempre aplicar todo a la clase del elemento*/
+p{
+  position: absolute;
+  /*Este valor no es necesario*/
+  /*z-index: 100px;*/
+  width: 300px;
+  /*Este tipo de fuente se lo quito ya que indique en el body que tipo de letra voy a trabajar*/
+  /*font-family: verdana;*/
+  /*Le agregue estas dos opciones para darle mayor vistosidad*/
+  /*---------------*/
+  font-style: italic;
+  font-size: 20px;
+  /*--------------*/
+  color: white;
+  text-align: center;
+  background-color: rgba(50, 40, 20, 0.5);
+  top: 80px;
+  /*Aquí le coloque un paddign de 5px, sólo para hacer que el elemento se vea separado del borde*/
+  padding: 5px;
+}
+.more{
+  position: absolute;
+  padding: 10px;
+  width: 100px;
+  right: 100px;
+  text-decoration: none;
+  font-family: arial;
+  /*Este valor no es necesario*/
+  /*z-index: 100px;*/
+  bottom: 10px;
+  color: white;
+  /*Aquí le aplique el color RGBA, para valerme dela posibilidad de otorgar una opacidad al elemento*/
+  background-color: rgba(255,0,0,0.7);;
+  text-align: center;
+}
+
+/*Amiga Gaby, le felicito por todo es¿l esfuerzo, continue así. Aquí le dejo este seudoselector, para que cuando pase el mouse por las opciones aparezca la línea inferior de la opcion, para mostrar al usuario cual es la opción donde está parado*/
+ul li a:hover{
+  text-decoration: underline;
+
+}
+/*Este otro es para dar un efecto de dinamismo sobre el elemento de ver mas*/
+.more:hover{
+  background-color: rgba(255,0,0,1);
+  transform: scale(1,0.80)
+}

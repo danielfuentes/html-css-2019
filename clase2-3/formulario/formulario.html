@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Ejemplo formulario</title>
+</head>
+
+<body>
+  <fieldset>
+    <legend>
+      <h2>Formulario de registro de datos</h2>
+    </legend>
+    <form>
+      <label>DNI</label>
+      <br>
+      <input name="dni" type="text" id="dni" required />
+      <br>
+      <label>Nombre:</label>
+      <br>
+      <input name="nombre" type="text" id="nombre" required />
+      <br>
+      <label>Apellido:</label>
+      <br>
+      <input name="apellido" type="text" id="apellido" required/>
+      <br>
+      <label>Fecha Nacimiento:</label>
+      <br>
+      <input name="fechaNacimiento" type="date" id="fechaMacimiento" />
+
+      <fieldset>
+        <legend>Indique Genero:</legend>
+
+        <input type="radio" name="sexo" id="sexo1" value="Masculino">
+        <label for="sexo1">Masculino</label>
+        <br>
+
+        <input type="radio" name="sexo" id="sexo2" value="Femenino">
+        <label for="sexo2">Femenino</label>
+        <br>
+
+        <input type="radio" name="sexo" id="sexo3" value="Otro">
+        <label for="sexo3">Otro</label>
+        <br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Seleccione la educación Culminada:</legend>
+
+        <input name="primaria" type="checkbox" id="check1" value="Primaria">
+        <label for="check1">Primaria</label>
+        <br>
+
+        <input name="secundaria" type="checkbox" id="check2" value="Secundaria">
+        <label for="check2">Secundaria</label>
+        <br>
+
+        <input name="universitaria" type="checkbox" id="check3" value="Universitaria">
+        <label for="check3">Universitaria</label>
+        <br>
+
+        <input name="postgrado" type="checkbox" id="check4" value="Postgrado">
+        <label for="check4">Postgrado</label>
+        <br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Departamento donde labora</legend>
+        <select name="departamento">
+          <option selected>Seleccione Departamento</option>
+          <option value="1">Sistemas</option>
+          <option value="2">Recursos Humanos</option>
+          <option value="3">Contabilidad</option>
+          <option value="3">Compras</option>
+          <option value="3">Finanzas</option>
+        </select>
+      </fieldset>
+
+      <label>Sueldo</label>
+      <br>
+      <input name="sueldo" type="text" id="sueldo" />
+      <br>
+
+      <label>Porcentaje de Aumento</label>
+      <br>
+      <input name="aumento" type="number" id="aumento" />
+      <br><br>
+
+      <label>Observaciones</label>
+      <textarea id="textarea" name="observaciones" id="vaciones" cols="50"></textarea>
+      <br><br>
+      <button type="submit">Enviar</button>
+      <button type="reset">Restablecer</button>
+    </form>
+  </fieldset>
+</body>
+
+</html>

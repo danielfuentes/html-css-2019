@@ -1,0 +1,56 @@
+main {
+    display:none;
+}
+
+/* La posta arranca aca abajo */
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/bg-2.png');    
+}
+
+.container {
+    width: 960px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.encabezado {
+    width: 960px;
+    height: 40px;
+    background-color: red;
+    position: fixed;
+    top: 55px;
+}
+
+.logo, .main-nav {
+    float:left;
+}
+
+.main-nav {
+    margin-top: 10px;
+}
+
+.logo {
+    position: relative;
+    top: -34px;
+    left: -30px;
+}

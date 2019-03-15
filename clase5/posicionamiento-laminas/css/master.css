@@ -1,0 +1,42 @@
+/*
+Ejercicio desarrollado para la clase de posicionameinto. Estimadas y estimados,si desean traten de ir jugando con este CSS quitando y colocando en comentarios ciertos elementos y vean lo que ocurre y así van entendiendo lo del Posicionamiento*/
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.seccion1{
+    background-color: yellow;
+    width: 100%;
+    position: relative;
+    
+}
+.caja{
+    width: 40.00%;
+    height: 500px;
+    
+}
+#uno{
+    background-color: #8bc34a;
+   /* position: fixed;*/
+   /* z-index: 100;*/
+    
+}
+#dos{
+    background-color: #009688;
+    
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+#tres{
+    background-color: #5e35b1;
+   
+    
+}
+
+
+

@@ -1,0 +1,98 @@
+/*
+Ejercicio desarrollado en la clase del viernes
+Estimadas y estimados, si desean traten de ir jugando con este CSS quitando y colocando en comentarios ciertos elementos y vean lo que ocurre y así van entendiendo lo del Posicionamiento*/
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+/*Al contenedor de todos los elementos ponga en comentario position: relative; y vea lo que ocurre cuando vela página en el browser*/
+.container{
+    width: 100%;
+    position: relative;    
+}
+.encabezado{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    /*Juegue con esto cambielo a position: fixed - relative y absolute y vea lo que ocurre al visualizar la página - Use las DEV TOOLS (f12) de su teclado o simplemente inspeccionar elemento, al final dejelo en position: fixed;*/
+    position: fixed;
+    
+    z-index: 100;
+}
+.img{
+    height: 30px;
+    
+    padding-top: 12px;
+    padding-left: 10px;
+}
+.seccion1{
+    background-color: #ffee58;
+    /*Cloque en comentarios el overflow: hiden; y vea lo que ocurre, notará que lo que se está haciendo es contener dentro a los elementos  hijos que rebasan el tamaño del contenedor padre*/
+    overflow: hidden;
+    
+    
+}
+.caja{
+    width: 20%;
+    height: 500px;
+}
+#uno{
+    background-color: #8bc34a;
+    position: relative;
+    /*Haga lo siguiente, quite la position: relative; a la clase .container y coloque position: obsolute a este elemento, luego  a este elemento le coloca top: 0px, lo que hará es disponer al elemento de manera absoluta al body del documento, claro para poder visualizar debe quitar el z-index al encabezado.(Es importante que vea que al usar position: absolute, el elemento deja su espacio y se va a las coordenadas indicadas, los demas elementos ahora usaran su espacio). */
+    top:400px;
+    float: left;
+}
+#dos{
+    background-color: #009688;
+    position: relative;
+    top: 300px; 
+    float: left;   
+}
+#tres{
+    background-color: #5e35b1;
+    position: relative;
+    top: 200px; 
+    float: left;   
+}
+
+#cuatro{
+    background-color: #ff7043;
+    position: relative;
+    top: 100px; 
+    float: left;   
+}
+
+/*Aquí voy a disponer las redes sociales y lo voy a dejar fijo cuando se hace scroll*/
+#cinco{
+    background-color: #546e7a;
+    position: fixed;
+    right: 0px;
+    float: left;
+    height: 100vh;
+}
+
+#cinco ul li {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+/*Le invito a que juegue con lo siguiente: Coloque en comentarios algunos elementos y vea los efectos en el navegador*/
+.seccion2{
+    width: 100%;
+    height: 100vh;
+    /*Quite y disponga margin*/
+    /*margin: 20px;*/
+    
+    background-image: url("../img/fordexplorer.jpg");
+    /*Juegue con estos elementos*/
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+
+}

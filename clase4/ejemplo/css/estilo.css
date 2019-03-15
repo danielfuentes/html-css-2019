@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+   /* padding: 0;*/
+}
+
+h1{
+    background-color: aqua;
+ 
+}
+
+a{
+    background-color: yellow;
+}
+ul{
+    background-color: red;
+}
+
+.contenedor{
+    width: 660px;
+}
+
+.principal{
+    overflow: hidden;
+}
+
+.articulo1{
+    float: left;
+    background-color: blueviolet;
+    width: 200px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    
+}
+.articulo2{
+    float: left;
+    background-color: brown;
+    width: 200px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+}
+.articulo3{
+    float: left;
+    background-color: aqua;
+    width: 200px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+.pie{
+    background-color: yellowgreen;
+
+}

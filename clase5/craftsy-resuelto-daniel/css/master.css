@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../img/bg-2.png");
+    background-size: cover;
+}
+
+.container{
+    width: 960px;
+    position: relative;
+    top: 150px;
+}
+
+.encabezado{
+    position: fixed;
+    z-index: 100;
+    top: 50px;
+    width: 950px;
+    
+}
+.logo{
+    position: absolute;
+    top: -30px;
+    left: -70px;
+}
+.main-nav{
+    overflow: hidden;
+    background-color: #F05331;
+    
+    padding: 20px;
+
+
+}
+.product-container{
+    overflow: hidden;
+   background-color: white;
+}
+.producto{
+    width: 300px;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+.flag{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+.name{
+    position: absolute;
+    background-color:  rgba(0,0,0,0.40);
+    color: white;
+    width: 100%;
+    top: 80px;
+    font-style: italic;     
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.more{
+    position: absolute;
+    bottom: 10px;
+    left: 115px;
+    display: block;
+    width: 25%;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(255,0,0,0.7);
+    color: white;
+    text-align: center;
+    
+}
+.more:hover{
+    background-color: rgba(255,0,0,1);
+    transform: scale(1,0.80)
+}
+ul li{
+    list-style-type: none;
+    float: left;    
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding-left: 30px;
+    color: white;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+
+}

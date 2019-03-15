@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.enlace{
+    display: flex;
+    padding: 15px;
+    list-style-type: none;
+    background-color: black;
+}
+
+.enlace a{
+    text-decoration: none;
+    color: white;
+}
+.enlace a:hover{
+    text-decoration: underline;
+}
+
+.bannerPrincipal{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.seccion1, .seccion2{
+    display: flex;
+    /*Amigas y amigos - El detalle que tenia era que el fle-wrap, en nowrap - Creo que esto me lo habia indicado agustina y no le realice caso - así que gracias a todos. Abrazos. Les invito a que jueguen con todo esto y así practican*/
+    flex-wrap: wrap;
+    /*------------------*/
+    justify-content: space-between;
+}
+.imagen{
+    display: flex;
+    width: 100%;
+}
+
+.pie{
+    padding: 15px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+h4 a{
+    text-decoration: none;
+    color: white;
+}
+h4 a:hover{
+    text-decoration: underline;
+}

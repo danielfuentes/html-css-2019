@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contenedor{
+    width: 660px;
+
+}
+
+.principal{
+    float: left;
+    overflow: hidden;
+}
+
+.articulo1{
+    background-color: aqua;
+    width: 200px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px red;
+}
+.articulo2{
+    background-color: yellow;
+    width: 200px;
+    height: 300px;    
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px red;
+}
+.articulo3{
+    background-color: blueviolet;
+    width: 200px;
+    height: 300px;    
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px red;
+}
+.articulo21{
+    background-color: aqua;
+    width: 145px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px red;
+    overflow: hidden;
+}
+.articulo22{
+    background-color: yellow;
+    width: 145px;
+    height: 300px;    
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px red;
+    overflow: hidden;    
+}
+.articulo23{
+    background-color: blueviolet;
+    width: 145px;
+    height: 300px;    
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px red;
+    overflow: hidden;    
+}
+.articulo24{
+    background-color: lightblue;
+    width: 145px;
+    height: 300px;    
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px red;
+    overflow: hidden;    
+}
+h2{
+    background-color: greenyellow;
+}
+#dh{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    display: block;
+}
+
+.pie{
+ clear: both;
+}

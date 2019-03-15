@@ -1,0 +1,128 @@
+/*CSS Globales*/
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+     margin: 0 auto;
+    /*Eesto lo coloque para quitarle los espacios por defecto a los a y los ul */
+    padding: 0;
+   
+ }
+
+/*CSS que le aplique a la página home*/
+.home{
+    background-image: url("../img/emilia-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: right;
+}
+ul li{
+
+    list-style-type: none;
+    
+}
+
+ul li a{
+
+    text-decoration: none;
+    
+}
+
+.cole{
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 100px;
+}
+
+#twist{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 150px;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.10);
+    
+}
+
+/*CSS que le aplique a la página about*/
+.about{
+    background-image: url("../img/emilia-about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: right;
+}
+
+.menu {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 70px;
+    text-align: right;
+    font-size: 19px;
+    
+}
+
+
+.social-about{
+    text-align: right;
+}
+
+.cole-about{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+}
+.habout{
+    margin-left: 100px;
+    color: #7bd666;
+}
+
+/*CSS que le aplique a la página music*/
+.menu-music {
+    background-image: url("../img/emilia-music-top.jpg");
+    background-color: rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    text-align: right;
+    font-size: 19px;
+    
+}
+
+.social-music{
+    text-align: right;
+}
+.ul-music a{
+    margin-left: 60px;
+    text-decoration: none;
+    
+}
+.h1-music{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*CSS que le aplique a la página contact*/
+.menu-contact {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    text-align: right;
+    font-size: 19px;
+    
+}
+input:focus{
+    background-color: blue;
+    color: white;
+}
+
+
+/*CSS que comparten todas las páginas*/
+.img-social{
+    width: 20px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.img-social:hover{
+    border-radius: 50%;
+}
